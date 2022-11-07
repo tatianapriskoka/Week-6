@@ -1,0 +1,185 @@
+header {
+    background-image: url(MG.png);
+    max-width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 5fr;
+    justify-content: space-between;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    object-fit: cover;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.header {
+    background-image: url(BG-Hero.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding: 5vh;
+    max-width: 100vw;
+
+}
+
+p {
+    font-family: 'Chronicle Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 90px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+}
+
+.container {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 10px;
+    height: auto;
+    grid-gap: 30px;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+
+.cell {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.cell-2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cell-3 {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cell-6 {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #000000;
+    height: 10vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+@media screen and (max-width:1023px) {
+    footer {
+        display: none;
+    }
+
+    .container {
+        background-color: #000000;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        padding-left: 20px;
+        padding-right: 20px;
+        height: auto;
+        grid-gap: 30px;
+        margin-left: 3em;
+        margin-right: 3em;
+
+    }
+
+    .cell-2 {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .cell-3 {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .cell-6 {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    header {
+        background-image: url(MG.png);
+        max-width: 100vw;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-content: space-between;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        background-repeat: no-repeat;
+        text-align: center;
+        color: #FFFFFF;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        object-fit: cover;
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    p {
+        font-family: 'Chronicle Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 80px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    .cell {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 32px;
+        color: #FFFFFF;
+
+    }
+
+}
